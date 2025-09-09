@@ -5,7 +5,7 @@ metadata:
   name: minio-pvc
   labels:
     app: minio
-  namespace: NAMESPACE
+  namespace: minio
 spec:
   accessModes:
   - ReadWriteOnce
