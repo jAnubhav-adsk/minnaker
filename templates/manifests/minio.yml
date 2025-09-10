@@ -40,7 +40,7 @@ spec:
         - name: MINIO_ACCESS_KEY
           value: "minio"
         - name: MINIO_SECRET_KEY
-          value: "MINIO_PASSWORD"
+          value: "minio123"
         ports:
         - containerPort: 9000
         volumeMounts:
